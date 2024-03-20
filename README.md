@@ -1,4 +1,4 @@
-# node-win-keylogger
+# Node Windows Keylogger
 Windows Keylogger to detect bad words then capture screenshot. Uses Firebase Realtime Database and Firebase Storage.
 
 # Prerequisites
